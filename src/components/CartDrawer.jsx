@@ -44,7 +44,7 @@ export default function CartDrawer() {
   const handleProceedToCheckout = (openInNewTab = true) => {
     setIsCartOpen(false);
     if (openInNewTab) {
-      window.open('/checkout', '_blank');
+      window.open('#/checkout', '_blank');
     } else {
       navigate('/checkout');
     }

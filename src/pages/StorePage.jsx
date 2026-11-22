@@ -177,7 +177,7 @@ export default function StorePage() {
             <div className="flex items-center gap-2.5 w-full sm:w-auto">
               <button
                 type="button"
-                onClick={() => window.open('/checkout', '_blank')}
+                onClick={() => window.open('#/checkout', '_blank')}
                 className="flex-1 sm:flex-initial px-4 py-2.5 bg-slate-900 hover:bg-slate-800 text-white text-xs font-semibold rounded-xl flex items-center justify-center gap-2 shadow-xs transition-all active:scale-95"
               >
                 <span>Checkout in New Tab</span>
